@@ -1,0 +1,184 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ol,
+ul,
+li,
+form,
+table,
+tr,
+td,
+footer,
+header,
+nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    background-image: url(../img/bg.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#container {
+    position: absolute;
+    width: 96%;
+    height: 100%;
+    top: 0;
+    left: 2%;
+    right: 2%;
+}
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 45%;
+    background-image: url(../img/header.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#miniheader {
+    position: absolute;
+    height: 15%;
+}
+main {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    height: 65%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#main2 {
+    top: 15%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#reg {
+    top: 15%;
+    height: 85%;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5% 3% 0.5% 3%;
+}
+li:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover {
+    text-shadow: 0 0 8px #FFFFFF;
+}
+a.blacklink {
+    color: #000000;
+}
+a.menu {
+    padding: 8% 0 8% 0;
+}
+.cols {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    width: 20%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 5px;
+}
+.cols:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+#col2 {
+    left: 28%;
+}
+#col3 {
+    left: 52%;
+}
+#col4 {
+    left: 76%;
+}
+.post {
+    position: absolute;
+    top: 0;
+    margin: 2%;
+    width: 96%;
+    height: 95%;
+    font-size: 15px;
+    text-align: center;
+    word-wrap: break-word;
+}
+img {
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+#imgPage {
+    width: 40%;
+    margin: 0 30% 2% 30%;
+}
+form {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+p {
+    padding-bottom: 10px;
+}
+label {
+    margin-right: 10px;
+}
+h3 {
+    font-size: 20px;
+    text-shadow: 0 0 5px #FFFFFF;
+    text-align: center;
+}
+h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+h5 {
+    margin-top: 5px;
+}
+footer {
+    position: fixed;
+    right: 2%;
+    bottom: 0;
+    left: 2%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #E5E5E5;
+    text-align: center;
+}
+#mainfooter{
+	/*top: 40%;*/
+	bottom: -10%;
+}
+#page {
+    margin: 5%;
+    font-size: 16px;
+}
+h1{
+font-size: 20px;
+text-align: center;	
+margin-top: 10px;
+}
+

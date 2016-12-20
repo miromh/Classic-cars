@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link href="styles/style.css" rel="stylesheet" type="text/css">
+      <title>Title</title>
+   </head>
+   <body>
+      <div id="container">
+         <header id="miniheader">
+            <nav>
+               <ul>
+                  <li><a href="index.html">Начало</a></li>
+                  <li><a href="fordm.html">Ford</a></li>
+                  <li><a href="porsche.html">Porsche</a></li>
+                  <li><a href="lambo.html">Lamborghini</a></li>
+                  <li><a href="ferrari.html">Ferrari</a></li>
+                  <li><a href="ask.html">Изпрати запитване</a></li>
+               </ul>
+            </nav>
+         </header>
+
+
+         <main id="reg">
+            <form method="post" action="mailto:miro.mh@gmail.com" enctype="text/plain">
+               <p>
+                  <label for="name1">Име:</label>
+                  <input type="text" name="firstName" id="name1" placeholder="Име . . .">	
+               </p>
+               <p>
+                  <label for="name2">Фамилия:</label>
+                  <input type="text" name="lastName" id="name2" placeholder="Фамилия . . .">
+               </p>
+               <p>
+                  <label for="brand">Предпочитана марка: </label>
+                  <select name="brand">
+                     <option value="null">избери</option>
+                     <option value="BMW">BMW</option>
+                     <option value="DODGE">Dodge</option>
+                     <option value="FORD">Ford</option>
+                     <option value="PORSCHE">Porsche</option>
+                     <option value="Lamborghini">Lamborghini</option>
+                     <option value="Mercedes-Benz">Mercedes-Benz</option>
+                  </select>
+               </p>
+               <p>Година на производство:</p>
+               <p><input type="radio" name="select" id="50" value="<1950">
+                  <label for="50">преди 1940 г.</label>
+               </p>
+               <p><input type="radio" name="select" id="60" value="1940-1960">
+                  <label for="60">1940-1960 г.</label>
+               </p>
+               <p><input type="radio" name="select" id="80" value="<1960-1980">
+                  <label for="80">1960-1980 г.</label>
+               </p>
+               <p>
+               <p>Въпроси:</p>
+               <textarea name="notes" rows="8" cols="33"></textarea>
+               </p>
+               <input type="submit" value="Изпрати">
+            </form>
+         </main>
+         <footer><h5>Copyright &copy; 2016 - Classic Cars</h5></footer>
+      </div>
+   </body>
+</html>
